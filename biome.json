@@ -3,7 +3,9 @@
   "files": {
     "ignoreUnknown": false,
     "ignore": [
-      "src/components/ui/*.tsx"
+      "src/components/ui/*.tsx",
+      "node_modules",
+      ".next"
     ]
   },
   "vcs": {
@@ -21,7 +23,8 @@
       },
       "style": {},
       "a11y": {
-        "useSemanticElements": "off"
+        "useSemanticElements": "off",
+        "useKeyWithClickEvents": "off"
       },
       "correctness": {
         "noUnusedImports": "error"
