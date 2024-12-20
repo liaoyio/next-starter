@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
+    "lint": "biome check ./src",
+    "lint:fix": "biome check --write ./src",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "preview": "next build && next start"
   },
   "dependencies": {
     "next": "15.1.2",
@@ -14,6 +16,7 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
     "@eslint/eslintrc": "^3",
     "@radix-ui/react-select": "^2.1.4",
     "@radix-ui/react-slot": "^1.1.1",
