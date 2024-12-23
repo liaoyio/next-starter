@@ -9,8 +9,5 @@ updates:
     schedule:
       interval: "weekly"
     commit-message: "chore（package）: update dependencies 🧵"
-    commit-message:
-      prefix: "chore"
-      include: true
     pull-request-message: "chore（package）: update dependencies 🧵"
- 
+
