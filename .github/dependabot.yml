@@ -8,6 +8,7 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
-    commit-message: "chore（package）: update dependencies 🧵"
-    pull-request-message: "chore（package）: update dependencies 🧵"
+    commit-message:
+      prefix: "chore" 
+      include: "scope"
 
